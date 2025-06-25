@@ -12,5 +12,5 @@ def Bubblesort(group):
                 group[i] = group[i+1]
                 group[i+1] = temp
                 swaps = True
-    return group
+    print(group)
 #Buble sort works well on small lists and is easy to implement but the issue is that it is inefficient on longer lists due to many redundant comparisons
