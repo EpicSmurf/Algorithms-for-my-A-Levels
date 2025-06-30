@@ -1,9 +1,8 @@
+#You will need this for Year One/AS Level CS
 #This is a simple stack implementation using a list called group
 #The stack stores names and has some empty spaces to push new items into
 #left_pointer shows where the top of the stack is right now
 #The user can PUSH to add a name, PEAK to see the top name, or POP to remove it
-
-
 
 group = ["", "", "", "", "Ben", "John",]  #Our stack stored in a list, with empty slots at the front
 length = len(group)  #length of the list (6)
@@ -38,7 +37,7 @@ def pop():
         print("Sorry we can't pop the stack")  #no items to pop
     return group
 
-# Main
+#Main
 choice = ""
 while choice != 'END':
     print("Options: PUSH, PEAK, POP, END")
